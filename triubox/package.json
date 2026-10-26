@@ -1,0 +1,19 @@
+{
+        "name": "triubox",
+        "version": "4.2.2",
+        "description": "Triubox — a BeepBox fork: chiptune sequencer evolving into a mini-DAW, built around the 'tri' concept.",
+        "private": true,
+        "scripts": {
+                "typecheck": "tsc --noEmit",
+                "build": "node build.mjs",
+                "build:debug": "node build.mjs --debug",
+                "serve": "python3 -m http.server 8080"
+        },
+        "dependencies": {
+                "imperative-html": "^0.1.2"
+        },
+        "devDependencies": {
+                "typescript": "^5.6.0",
+                "esbuild": "^0.25.0"
+        }
+}
